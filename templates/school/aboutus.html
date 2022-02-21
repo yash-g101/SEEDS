@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <title>About Us</title>
+  <style type="text/css" media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .jumbotron h1 {
+      text-align: center;
+    }
+
+    .alert {
+      margin: 0px;
+    }
+    a:link {
+      text-decoration: none;
+    }
+
+    .order-card {
+      color: #fff;
+    }
+
+    .bg-c-blue {
+      background: linear-gradient(45deg, #1c4069, #73b4ff);
+    }
+
+    .bg-c-green {
+      background: linear-gradient(45deg, #0c6d59, #59e0c5);
+    }
+
+    .bg-c-yellow {
+      background: linear-gradient(45deg, #9c5400, #fdb856);
+    }
+
+    .card {
+      border-radius: 5px;
+      -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+      box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+      border: none;
+      margin-bottom: 30px;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .card .card-block {
+      padding: 25px;
+    }
+
+    .order-card i {
+      font-size: 26px;
+    }
+
+    .f-left {
+      float: left;
+    }
+
+    .f-right {
+      float: right;
+    }
+  </style>
+
+  <title></title>
+</head>
+
+<body>
+
+  {% include "school/navbar.html" %}
+  <br><br>
+  <center>
+    <h3 class='alert alert-success' style="margin-bottom:0px;">About Us !</h3>
+  </center>
+  <div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px;">
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-xl-4">
+          <div class="card bg-c-green order-card">
+            <div class="card-block">
+              <h5 class="m-b-20">Swarup Yeole</h5>
+              <p class="m-b-0">CSE<span class="f-right">201000054</span></p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-xl-4">
+          <div class="card bg-c-blue order-card">
+            <div class="card-block">
+              <h5 class="m-b-20">Yash Ghodekar</h5>
+              <p class="m-b-0">CSE<span class="f-right">201000059</span></p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-xl-4">
+          <div class="card bg-c-yellow order-card">
+            <div class="card-block">
+              <h5 class="m-b-20">Suyash Sinha</h5>
+              <p class="m-b-0">CSE<span class="f-right">201000053</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="my-4">
+    <p class="lead"><center>A service dedicated to Admin, Student and Registrar. We provide online resources, professional support
+      and guidance to all our student, whenever, and from wherever they have chosen to study.</center></p>
+    <p><center>Explore our Website.</center></p>
+    <hr class="my-4">
+    <p class="lead">
+      <center>
+        <a class="btn btn-dark btn-lg" href="/" role="button">HOME</a>
+      </center>
+    </p>
+  </div>
+</body>
+</html>
