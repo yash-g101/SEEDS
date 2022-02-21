@@ -3,18 +3,22 @@
 ## screenshots
 ### Homepage
 ![homepage snap](https://github.com/yash-g101/SEEDS/blob/main/static/screenshots/dashboard1.png?raw=true)
+
 ### Admin Dashboard
 ![dashboard snap](https://github.com/yash-g101/SEEDS/blob/main/static/screenshots/admin_dashboard.png?raw=true)
+
 ### Admin Manage Registrar
 ![invoice snap](https://github.com/yash-g101/SEEDS/blob/main/static/screenshots/admin_reg_section.png?raw=true)
-### Admin View Student
-![doctor snap](https://github.com/yash-g101/SEEDS/blob/main/static/screenshots/admin_view_students.png?raw=true)
+
+### Admin Student Section
+![doctor_snap](https://github.com/yash-g101/SEEDS/blob/main/static/screenshots/admin_student_section.png?raw=true)
+
 ### Registrar Dashboard
 ![doctor snap](https://github.com/yash-g101/SEEDS/blob/main/static/screenshots/registrar_dashboard.png?raw=true)
+
 ### Registrar Student Section 
 ![doctor snap](https://github.com/yash-g101/SEEDS/blob/main/static/screenshots/registrar_student_section.png?raw=true)
-### Student Dashboard
-![doctor_snap](https://github.com/yash-g101/SEEDS/blob/main/static/screenshots/student_dashboard.png?raw=true)
+
 ---
 
 ## Functions
